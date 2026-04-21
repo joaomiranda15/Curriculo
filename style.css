@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(169, 219, 17, 0.132);
+}
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.lateral {
+    text-align: center;
+}
+.principal {
+    margin-left: 70px;
+    margin-right: 40px;
+}
+img {
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 20px;
+}
