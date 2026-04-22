@@ -1,15 +1,21 @@
 body {
-    background-color: rgba(169, 219, 17, 0.132);
+    background-color:#f0f8ff;
+    font-family: Arial;
 }
 .container {
-    display: grid;
-    grid-template-columns: 25% 75%;
+    display: block;
 }
 .lateral {
     text-align: center;
+    background-color: #759CBF;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
 }
 .principal {
-    margin-left: 70px;
+    margin-left: 27%;
     margin-right: 40px;
 }
 img {
