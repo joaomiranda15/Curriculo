@@ -23,3 +23,16 @@ img {
     width: 200px;
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    .lateral {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;       /* ocupa toda a largura */
+        height: auto;      /* só a altura do conteúdo */
+    }
+    .principal {
+        margin-left: 0;    
+        margin-top: 250px; /* empurra o conteúdo para baixo do menu */
+    }
+}
